@@ -1,27 +1,12 @@
-import React, { useEffect, useState } from 'react';
-import { Header } from 'src/components/Header';
-import { Map } from 'src/components/Map';
+import React from 'react';
 
-const _Home = () => {
-  const [eventData, setEventData] = useState([]);
-
-  useEffect(() => {
-    const fetchEvents = async () => {
-      const res = await fetch(
-        'https://eonet.sci.gsfc.nasa.gov/api/v2.1/events',
-      );
-      const { events } = await res.json();
-      setEventData(events);
-    };
-    fetchEvents();
-  }, []);
+const _HomePage = () => {
   return (
     <div>
-      <Header />
-      <Map eventData={eventData} />
+      <h1>Hi there!</h1>
     </div>
   );
 };
 
-const Home = React.memo(_Home);
-export default Home;
+const HomePage = React.memo(_HomePage);
+export default HomePage;
