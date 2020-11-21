@@ -2,14 +2,11 @@
 general 
 -------
 */
-html,
-body {
-  scroll-behavior: smooth;
-}
 body {
   font-size: 16px;
   line-height: 1.6;
   color: #333;
+  min-height: 100vh;
   overflow-x: hidden;
 }
 
@@ -23,7 +20,7 @@ body {
   background: #fff !important;
 }
 
-.main-layout .ant-layout-header {
+.mainLayout .ant-layout-header {
   background: #f8f8f8;
   padding: 0;
   height: auto;
@@ -37,6 +34,33 @@ p {
 
 .bgGray {
   background: #fafafa;
+}
+
+/* 
+title holder
+------------
+*/
+.titleHolder {
+  text-align: center;
+  position: relative;
+  padding: 0 0 20px;
+  margin: 0 0 40px;
+}
+
+.titleHolder:after {
+  transform: translateX(-50%);
+  content: '';
+  background: #1890ff;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 3px;
+  width: 50px;
+}
+
+.titleHolder h2 {
+  font-size: 28px;
+  margin: 0;
 }
 
 /* 
@@ -89,15 +113,6 @@ header
   padding: 0 20px;
   line-height: 1.4;
   position: relative;
-  a {
-    text-decoration: none;
-  }
-  a:visited {
-    color: unset;
-  }
-  a:active {
-    color: #1890ff;
-  }
 }
 
 .header .ant-anchor-link:before,
@@ -128,9 +143,6 @@ header
 .header .ant-anchor-link:hover:after {
   right: 5%;
   opacity: 1;
-}
-.header .ant-anchor-link.ant-anchor-link-active {
-  color: #1890ff;
 }
 
 /* ant menu */
@@ -186,37 +198,6 @@ header
 }
 
 /* 
-title holder
-------------
-*/
-.titleHolder {
-  text-align: center;
-  position: relative;
-  padding: 0 0 20px;
-  margin: 0 0 40px;
-}
-
-.titleHolder:after {
-  transform: translateX(-50%);
-  content: '';
-  background: #1890ff;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  height: 3px;
-  width: 50px;
-}
-
-.titleHolder h2 {
-  font-size: 28px;
-  margin: 0;
-}
-
-/* 
-hero
----- 
-*/
-/* 
 hero
 ---- 
 */
@@ -225,7 +206,6 @@ hero
   background-position: 50% 100%;
   background-size: cover;
   height: 100vh;
-  z-index: -9;
 }
 
 .heroBlock .container-fluid {
@@ -454,37 +434,38 @@ footer
   color: #1890ff;
 }
 
-.footer .go-top:hover {
+.footer .goTop:hover {
   opacity: 0.7;
+}
+
+.mobileVisible {
+  display: none;
+}
+
+.mobileHidden {
+  display: block;
 }
 
 /* 
 responsive
 ----------
 */
-.mobile-visible {
-  display: none;
-}
-
-.mobile-hidden {
-  display: block;
-}
 @media only screen and (max-width: 991px) {
-  .pricing-block .ant-row > div:nth-child(2) .ant-list-item {
+  .pricingBlock .ant-row > div:nth-child(2) .ant-list-item {
     transform: scale(1.14);
   }
 }
 
 @media only screen and (max-width: 767px) {
-  .pricing-block .ant-row > div:nth-child(2) .ant-list-item {
+  .pricingBlock .ant-row > div:nth-child(2) .ant-list-item {
     transform: scale(1);
   }
 
-  .mobile-visible {
+  .mobileVisible {
     display: block;
   }
 
-  .mobile-hidden {
+  .mobileHidden {
     display: none;
   }
 }

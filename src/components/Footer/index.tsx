@@ -38,7 +38,7 @@ export const AppFooter = () => {
         </ul>
         <div className="copyright">Copyright &copy; 2020 Tech</div>
         <BackTop>
-          <div className="go-top">
+          <div className="goTop">
             <i className="fas fa-arrow-circle-up"></i>
           </div>
         </BackTop>

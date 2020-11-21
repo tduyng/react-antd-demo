@@ -28,7 +28,7 @@ export const AppHeader = () => {
           <i className="fas fa-bolt"></i>
           <a href="/">Tech</a>
         </div>
-        <div className="mobile-hidden">
+        <div className="mobileHidden">
           <Anchor targetOffset={targetOffset}>
             <Link href="#hero" title="Home" />
             <Link href="#about" title="About" />
@@ -39,7 +39,7 @@ export const AppHeader = () => {
             <Link href="#contact" title="Contact" />
           </Anchor>
         </div>
-        <div className="mobile-visible">
+        <div className="mobileVisible">
           <Button type="primary" onClick={showDrawer}>
             <i className="fas fa-bars"></i>
           </Button>

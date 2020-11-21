@@ -11,13 +11,11 @@ interface Props {
 export const MainLayout = (props: Props) => {
   const { children } = props;
   return (
-    <Layout className="main-layout">
+    <Layout className="mainLayout">
       <Header>
         <AppHeader />
       </Header>
-      <Content>
-        <div>{children}</div>
-      </Content>
+      <Content>{children}</Content>
       <Footer>
         <AppFooter />
       </Footer>
