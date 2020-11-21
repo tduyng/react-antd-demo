@@ -1,10 +1,15 @@
 import React from 'react';
+import { Header } from 'src/components/Header';
+import { Footer } from 'src/components/Footer';
+import { LandingPage } from 'src/components/LandingPage';
 
 const _HomePage = () => {
   return (
-    <div>
-      <h1>Hi there!</h1>
-    </div>
+    <>
+      <Header />
+      <LandingPage />
+      <Footer />
+    </>
   );
 };
 

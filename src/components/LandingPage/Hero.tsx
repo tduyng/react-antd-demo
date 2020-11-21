@@ -1,5 +1,5 @@
 import React from 'react';
 
-export const Contact = () => {
+export const Hero = () => {
   return <div>Hero</div>;
 };
