@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import 'src/assets/scss/map.scss';
 import GoogleMapReact from 'google-map-react';
 import { LocationMarker } from './LocationMarker';
 import { LocationInfoBox } from './LocationInfoBox';
