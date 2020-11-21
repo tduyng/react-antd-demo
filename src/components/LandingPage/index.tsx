@@ -9,7 +9,7 @@ import { Work } from './Work';
 
 export const LandingPage = () => {
   return (
-    <div className="main">
+    <div className="home-main">
       <Hero />
       <About />
       <Feature />

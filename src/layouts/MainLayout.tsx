@@ -15,7 +15,9 @@ export const MainLayout = (props: Props) => {
       <Header>
         <AppHeader />
       </Header>
-      <Content>{children}</Content>
+      <Content>
+        <div>{children}</div>
+      </Content>
       <Footer>
         <AppFooter />
       </Footer>
