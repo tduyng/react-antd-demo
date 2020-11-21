@@ -1,15 +1,13 @@
 import React from 'react';
-import { Header } from 'src/components/Header';
-import { Footer } from 'src/components/Footer';
+import 'src/assets/scss/home.scss';
+import { MainLayout } from 'src/layouts/MainLayout';
 import { LandingPage } from 'src/components/LandingPage';
 
 const _HomePage = () => {
   return (
-    <>
-      <Header />
+    <MainLayout>
       <LandingPage />
-      <Footer />
-    </>
+    </MainLayout>
   );
 };
 
