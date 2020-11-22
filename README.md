@@ -1,4 +1,4 @@
-# react-antd-demo
+# React Ant Design Demo
 
 Project demo using React/TypeScript & Ant Design
 
