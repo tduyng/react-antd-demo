@@ -10,9 +10,12 @@ export const Work = () => {
     setVisible(false);
   };
   return (
-    <div id="works" className="block worksBlock">
+    <div id="main-works" className="block worksBlock">
       <div className="container-fluid">
         <div className="titleHolder">
+          <a className="block-anchor" id="works">
+            Peuso anchor
+          </a>
           <h2>How it works</h2>
           <p>
             Perspiciatis vero similique, ut ducimus modi ipsam autem tempora

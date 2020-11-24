@@ -11,9 +11,12 @@ const { Meta } = Card;
 
 export const Feature = () => {
   return (
-    <div id="feature" className="block featureBlock bgGray">
+    <div id="main-feature" className="block featureBlock bgGray">
       <div className="container-fluid">
         <div className="titleHolder">
+          <a className="block-anchor" id="feature">
+            Peuso anchor
+          </a>
           <h2>Key Features and Benefits</h2>
           <p>
             Obcaecati consequatur libero repudiandae, aperiam itaque laborum!

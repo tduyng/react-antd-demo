@@ -27,9 +27,12 @@ const items = [
 
 export const About = () => {
   return (
-    <div id="about" className="block aboutBlock">
+    <div id="main-about" className="block aboutBlock">
       <div className="container-fluid">
         <div className="titleHolder">
+          <a className="block-anchor" id="about">
+            Peuso anchor
+          </a>
           <h2>About Us</h2>
           <p>dolor sit amet, consectetur adipisicing elit</p>
         </div>

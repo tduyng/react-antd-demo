@@ -4,9 +4,12 @@ const { Panel } = Collapse;
 
 export const FAQ = () => {
   return (
-    <div id="faq" className="block faqBlock">
+    <div id="main-faq" className="block faqBlock">
       <div className="container-fluid">
         <div className="titleHolder">
+          <a className="block-anchor" id="faq">
+            Peuso anchor
+          </a>
           <h2>Frequently Asked Questions</h2>
           <p>
             Quidem reiciendis iure, aperiam blanditiis. Alias esse, nam, ea quam

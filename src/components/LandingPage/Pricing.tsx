@@ -45,9 +45,12 @@ const data = [
 
 export const Pricing = () => {
   return (
-    <div id="pricing" className="block pricingBlock bgGray">
+    <div id="main-pricing" className="block pricingBlock bgGray">
       <div className="container-fluid">
         <div className="titleHolder">
+          <a className="block-anchor" id="pricing">
+            Peuso anchor
+          </a>
           <h2>Choose a plan to fit your needs</h2>
           <p>
             Debitis itaque minima dolorum fuga aperiam inventore, quidem enim

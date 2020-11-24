@@ -4,9 +4,12 @@ const { TextArea } = Input;
 
 export const Contact = () => {
   return (
-    <div id="contact" className="block contactBlock">
+    <div id="main-contact" className="block contactBlock">
       <div className="container-fluid">
         <div className="titleHolder">
+          <a className="block-anchor" id="contact">
+            Peuso anchor
+          </a>
           <h2>Get in Touch</h2>
           <p>Dolore nam rerum obcaecati fugit odio nobis Molestiae rerum</p>
         </div>
