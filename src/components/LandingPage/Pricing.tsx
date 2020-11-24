@@ -48,8 +48,8 @@ export const Pricing = () => {
     <div id="main-pricing" className="block pricingBlock bgGray">
       <div className="container-fluid">
         <div className="titleHolder">
-          <a className="block-anchor" id="pricing">
-            Peuso anchor
+          <a className="block-anchor" id="pricing" href="!#">
+            Pseudo anchor
           </a>
           <h2>Choose a plan to fit your needs</h2>
           <p>

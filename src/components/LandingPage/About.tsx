@@ -30,8 +30,8 @@ export const About = () => {
     <div id="main-about" className="block aboutBlock">
       <div className="container-fluid">
         <div className="titleHolder">
-          <a className="block-anchor" id="about">
-            Peuso anchor
+          <a className="block-anchor" id="about" href="!#">
+            Pseudo anchor
           </a>
           <h2>About Us</h2>
           <p>dolor sit amet, consectetur adipisicing elit</p>

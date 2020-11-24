@@ -7,8 +7,8 @@ export const Contact = () => {
     <div id="main-contact" className="block contactBlock">
       <div className="container-fluid">
         <div className="titleHolder">
-          <a className="block-anchor" id="contact">
-            Peuso anchor
+          <a className="block-anchor" id="contact" href="!#">
+            Pseudo anchor
           </a>
           <h2>Get in Touch</h2>
           <p>Dolore nam rerum obcaecati fugit odio nobis Molestiae rerum</p>

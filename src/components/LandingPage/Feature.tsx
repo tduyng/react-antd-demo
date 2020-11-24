@@ -14,8 +14,8 @@ export const Feature = () => {
     <div id="main-feature" className="block featureBlock bgGray">
       <div className="container-fluid">
         <div className="titleHolder">
-          <a className="block-anchor" id="feature">
-            Peuso anchor
+          <a className="block-anchor" id="feature" href="!#">
+            Pseudo anchor
           </a>
           <h2>Key Features and Benefits</h2>
           <p>

@@ -7,8 +7,8 @@ export const FAQ = () => {
     <div id="main-faq" className="block faqBlock">
       <div className="container-fluid">
         <div className="titleHolder">
-          <a className="block-anchor" id="faq">
-            Peuso anchor
+          <a className="block-anchor" id="faq" href="!#">
+            Pseudo anchor
           </a>
           <h2>Frequently Asked Questions</h2>
           <p>

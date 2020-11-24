@@ -13,8 +13,8 @@ export const Work = () => {
     <div id="main-works" className="block worksBlock">
       <div className="container-fluid">
         <div className="titleHolder">
-          <a className="block-anchor" id="works">
-            Peuso anchor
+          <a className="block-anchor" id="works" href="!#">
+            Pseudo anchor
           </a>
           <h2>How it works</h2>
           <p>
