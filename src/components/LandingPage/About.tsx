@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Row, Col } from 'antd';
 
-const items = [
+const initItems = [
   {
     key: '1',
     icon: <i className="fas fa-chart-pie"></i>,
@@ -26,6 +26,10 @@ const items = [
 ];
 
 export const About = () => {
+  const [items, setItems] = useState(initItems);
+  useEffect(() => {
+    setItems(initItems);
+  }, [items]);
   return (
     <div id="main-about" className="block aboutBlock">
       <div className="container-fluid">

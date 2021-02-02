@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Header } from 'src/components/Map/MapHeader';
 import { Map } from 'src/components/Map';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 const _MapPage = () => {
   const [eventData, setEventData] = useState([]);
@@ -15,7 +15,7 @@ const _MapPage = () => {
       setEventData(events);
     };
     fetchEvents();
-  }, []);
+  }, [eventData]);
 
   return (
     <div>

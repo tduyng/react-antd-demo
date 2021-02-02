@@ -4,10 +4,13 @@ import 'antd/dist/antd.css';
 import 'src/assets/scss/index.scss';
 import App from 'src/App/App';
 import reportWebVitals from './reportWebVitals';
+import { HelmetProvider } from 'react-helmet-async';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <HelmetProvider>
+      <App />
+    </HelmetProvider>
   </React.StrictMode>,
   document.getElementById('root'),
 );

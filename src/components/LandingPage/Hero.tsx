@@ -27,8 +27,6 @@ export const Hero = () => {
 
   useEffect(() => {
     setItems(initItems);
-    // eslint-disable-next-line no-console
-    items.forEach(x => console.log(x.title, x.content));
   }, [items]);
 
   return (

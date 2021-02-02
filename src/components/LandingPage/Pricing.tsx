@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { List, Card, Button } from 'antd';
 
-const data = [
+const initData = [
   {
     title: 'Basic',
     content: [
@@ -44,6 +44,7 @@ const data = [
 ];
 
 export const Pricing = () => {
+  const [data] = useState(initData);
   return (
     <div id="main-pricing" className="block pricingBlock bgGray">
       <div className="container-fluid">
