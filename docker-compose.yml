@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  react-demo:
+    container_name: react-antd-demo
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    ports:
+      - 3000:3000
+    env_file:
+      - .env

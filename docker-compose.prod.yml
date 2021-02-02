@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  react-demo-prod:
+    container_name: react-antd-demo-prod
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.prod
+    ports:
+      - 8877:80
