@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Header } from 'src/components/Map/MapHeader';
 import { Map } from 'src/components/Map';
+import { Helmet } from 'react-helmet';
 
 const _MapPage = () => {
   const [eventData, setEventData] = useState([]);
@@ -15,8 +16,15 @@ const _MapPage = () => {
     };
     fetchEvents();
   }, []);
+
   return (
     <div>
+      <Helmet>
+        <html lang="en" />
+        <title>Map | React Antd Demo</title>
+        <meta name="description" content="Google map React demo" />
+      </Helmet>
+
       <Header />
       <Map eventData={eventData} />
     </div>
