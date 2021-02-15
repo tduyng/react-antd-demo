@@ -27,7 +27,7 @@
     "@iconify/react": "1.1.4",
     "antd": "4.11.2",
     "google-map-react": "2.1.9",
-    "node-sass": "4.14.1",
+    "node-sass": "5.0.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-helmet-async": "1.0.7",
