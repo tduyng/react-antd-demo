@@ -12,6 +12,15 @@
     "react-ant-design",
     "react-boilerplate"
   ],
+
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint --fix --ext js,jsx,ts,tsx src/",
+    "prettier": "prettier --write \"src/**/(*.tsx|*.ts|*.jsx|*.js|*.scss|*.css)\""
+  },
   "dependencies": {
     "@ant-design/icons": "^4.3.0",
     "@iconify/icons-mdi": "^1.0.152",
@@ -28,16 +37,6 @@
     "redux-thunk": "^2.3.0",
     "styled-components": "^5.2.1",
     "web-vitals": "^1.1.0"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "lint": "eslint --ext js,jsx,ts,tsx src/",
-    "lint:fix": "eslint --fix --ext js,jsx,ts,tsx src/",
-    "prettier": "prettier --check \"src/**/(*.tsx|*.ts|*.jsx|*.js|*.scss|*.css)\"",
-    "prettier:fix": "prettier --write \"src/**/(*.tsx|*.ts|*.jsx|*.js|*.scss|*.css)\""
   },
   "eslintConfig": {
     "extends": [
