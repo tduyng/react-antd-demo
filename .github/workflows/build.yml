@@ -1,4 +1,4 @@
-name: Build and deploy netlify
+name: Build & deploy
 
 on:
   push:
