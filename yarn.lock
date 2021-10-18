@@ -1955,10 +1955,10 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@iconify/icons-mdi@1.1.12":
-  version "1.1.12"
-  resolved "https://registry.yarnpkg.com/@iconify/icons-mdi/-/icons-mdi-1.1.12.tgz#6cdf4fd354730491685ff741c0d490c90631683b"
-  integrity sha512-U7ZjSRx1ByV09I9oVow1BT9II7DKc1m2HuCB2CjE9gA43Ybpq2qJUDBQohc0svu/q+MPoM6XNW0b09v9iYI1AA==
+"@iconify/icons-mdi@1.1.36":
+  version "1.1.36"
+  resolved "https://registry.yarnpkg.com/@iconify/icons-mdi/-/icons-mdi-1.1.36.tgz#4d55a7e1b41ee1c87664e09c53928663d7036778"
+  integrity sha512-MoRpg2KKAUvEOnj64UF9BP75foq7XIFawAjfdtkGO9iUAv3ve2GzARXsYu2r4ady8Jy4J3xl/1SySajSHkmVFA==
 
 "@iconify/react@1.1.4":
   version "1.1.4"
