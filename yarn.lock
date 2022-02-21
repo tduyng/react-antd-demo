@@ -1955,15 +1955,22 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@iconify/icons-mdi@1.1.12":
-  version "1.1.12"
-  resolved "https://registry.yarnpkg.com/@iconify/icons-mdi/-/icons-mdi-1.1.12.tgz#6cdf4fd354730491685ff741c0d490c90631683b"
-  integrity sha512-U7ZjSRx1ByV09I9oVow1BT9II7DKc1m2HuCB2CjE9gA43Ybpq2qJUDBQohc0svu/q+MPoM6XNW0b09v9iYI1AA==
+"@iconify/icons-mdi@1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@iconify/icons-mdi/-/icons-mdi-1.2.1.tgz#69c111961b60bacdb5f4d8bc6ccbf91114d5957f"
+  integrity sha512-tHOIwiv/2rc0cDpisLraHZrd0fGYbaHa6MaTYWk6CgZgDhSgffMTfWfldLaNyJGmVS+bt+2pduy8qi+8XFD4HA==
+  dependencies:
+    "@iconify/types" "^1.0.12"
 
 "@iconify/react@1.1.4":
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/@iconify/react/-/react-1.1.4.tgz#c778eddbaf196e55705d0bedff00d039dc1de8d3"
   integrity sha512-oxq8IMOq8q3nKGiDHbQPC8FcFuBsKve68JWBo140d5LRnj0bv5TB/FE/y01ZSvEZ7PlI2HIrnb2qivPN8kTDgw==
+
+"@iconify/types@^1.0.12":
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/@iconify/types/-/types-1.0.12.tgz#839f1f784b7030b94482d51996570f4dbd7d6796"
+  integrity sha512-6er6wSGF3hgc1JEZqiGpg21CTCjHBYOUwqLmb2Idzkjiw6ogalGP0ZMLVutCzah+0WB4yP+Zd2oVPN8jvJ+Ftg==
 
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
